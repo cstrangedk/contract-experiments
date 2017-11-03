@@ -1,1 +1,6 @@
-Various smart contract experiments
+# contract experiments
+
+## To compile contracts
+
+`truffle compile`
+
