@@ -20,7 +20,7 @@ contract TokenCoin {
         return ConvertLib.convert(getBalance(addr), 2);
     }
 
-    function getBalance(address addr) public returns(uint) {
+    function getBalance(address addr) public view returns(uint) {
         return balances[addr];
     }
 }

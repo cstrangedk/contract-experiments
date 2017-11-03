@@ -1,0 +1,15 @@
+{
+  "name": "contract-experiments",
+  "version": "0.0.1",
+  "description": "Smart contract experiments",
+  "main": ".",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node scripts/test.js --env=jsdom"
+  },
+  "dependencies": {
+    "zeppelin-solidity": "^1.3.0"
+  }
+}
